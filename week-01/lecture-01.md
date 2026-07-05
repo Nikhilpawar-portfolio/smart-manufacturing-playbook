@@ -155,13 +155,98 @@ graph LR
 > Only terms that were either new to me, used in a specific
 > Industry 4.0 context, or worth documenting for quick recall.
 
-| Term | My Understanding | Added to Glossary? |
-|------|-----------------|-------------------|
-| — | — | ⬜ No |
+| Term | Note | Added to Glossary? |
+|------|------|--------------------|
+| **Ubiquitous Internet** | "Ubiquitous" = present everywhere simultaneously. In I4.0 context — internet connectivity available across all machines, locations & systems at all times, not just at a workstation | ✅ Yes |
+| **CPS** | Cyber-Physical Systems — tight integration of computation, networking & physical processes. Introduced here as a component of I4.0, technical depth expected in later weeks | ✅ Yes |
+| **M2M Communication** | Machine-to-Machine — devices exchange data & trigger actions directly without human intervention. Core enabler of smart factory automation | ✅ Yes |
+| **Hannover Fair** | Major industrial trade fair in Germany — where Industry 4.0 was officially coined and announced in 2011 | ✅ Yes |
 
 ---
 
-## 🔗 Connections to Other Concepts
+## 🔗 Connections & Real-World Experience
+
+### 🤔 Forward Connections — To Revisit
+
+- The **Company A vs B** example feels like a direct argument for
+  operational data visibility & real-time decision making —
+  likely connects to topics on Big Data, Analytics or ERP integration
+  in later weeks. To revisit once those weeks are covered.
+
+- **CPS** was introduced briefly here — expecting deeper technical
+  coverage in later weeks. Holding questions until then.
+
+---
+
+### 💼 Real-World Experience — Component Traceability in IIoT
+
+> This lecture reminded me of a project I was directly involved in.
+
+**Context:** A component manufacturer supplying parts for solar panel
+mounting structures to a solar panel company.
+
+The client had an ERP system integrated with their customer's ERP —
+a solid setup on paper. But operationally, it was failing repeatedly:
+
+- OTAs missed despite production completing on time
+- Wrong parts dispatched to customers
+- Kitting inaccuracies — components manufactured but unavailable at
+  kitting stage
+- Kit combinations were off — 8,000–9,000+ variations at the time,
+  growing with new models and custom requirements
+
+**How We Got Involved:**
+
+The customer invited us for an automation requirement on a specific
+sub-assembly. As standard practice during assessment we did a
+**Gemba walk** — observing the broader workflow around that assembly.
+That's where the internal logistics breakdown became visible.
+
+**What We Proposed:**
+
+An IIoT-enabled smart assembly system with full ERP integration —
+pulling and pushing data automatically, eliminating manual data entry,
+connecting machines and internal workflows directly to live orders.
+
+We also proposed IIoT-enabling their other systems — integrating
+internal logistics, process transfers and kitting into the same
+connected layer.
+
+The customer got curious. They opened up about the operational
+issues they'd been struggling with and asked whether IIoT could
+solve them.
+
+**Root Cause We Identified:**
+
+The missing piece was **component traceability** — tracking every
+component from:
+
+```
+Manufacturing → Internal Logistics → Process / Machine Transfers
+→ Kitting → Dispatch
+```
+
+...all connected to ERP, their Warehouse Management System and
+Salesforce.
+
+With thousands of kit variations and no traceability at the
+component level, their digital system and physical reality were
+permanently out of sync.
+
+**Connection to This Lecture:**
+
+This is a direct, real-world version of the **Company A vs Company B**
+example from the lecture. The client had invested in a connected
+system (ERP + customer ERP integration) but was still operating on
+assumptions at the process level — because the physical layer was
+never connected to the digital layer.
+
+Traceability was the bridge.
+
+> 📌 **Note:** Component traceability is not covered in this lecture
+> and may or may not appear explicitly in later weeks. It is however
+> a critical real-world application of IIoT in manufacturing —
+> worth watching for as the course progresses.
 
 ---
 
