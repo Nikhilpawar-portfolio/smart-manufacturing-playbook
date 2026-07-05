@@ -1,230 +1,205 @@
-# 📚 NOC: Introduction to Industry 4.0 and Industrial Internet of Things
+# Industry 4.0 & Industrial Internet of Things — Practitioner Field Notes
 
-> 🎓 **Institution:** IIT Kharagpur (NPTEL)
-> 👨‍🏫 **Instructor:** Prof. Sudip Misra, Department of Computer Science & Engineering
-> 🗓️ **Duration:** 12 Weeks | 65 Lectures
-> 🏷️ **Course Code:** NOC20_CS69
-> 🔗 **Course Link:** [View on NPTEL](https://onlinecourses.nptel.ac.in/noc20_cs69/preview)
+Observations, frameworks, industrial perspectives and implementation realities across manufacturing transformation, smart factories and industrial digitalisation.
+
+Concepts are explored through practitioner reflections, field observations, implementation experiences, technology trends and consultant perspectives.
 
 ---
 
-## 🗺️ Table of Contents
+## Themes Covered
 
-| Week | Theme | Lectures | Status |
-|------|-------|----------|--------|
-| [Week 01](./week-01/) | Introduction: Sensing, Connectivity & Networking | 01 – 05 | ⏳ Pending |
-| [Week 02](./week-02/) | Industry 4.0: Foundations & Smart Factories | 06 – 10 | ⏳ Pending |
-| [Week 03](./week-03/) | Industry 4.0: CPS, AR/VR, AI & Big Data | 11 – 15 | ⏳ Pending |
-| [Week 04](./week-04/) | Cybersecurity in I4.0 & IIoT Basics | 16 – 20 | ⏳ Pending |
-| [Week 05](./week-05/) | IIoT: Introduction, Business Models & Architecture | 21 – 25 | ⏳ Pending |
-| [Week 06](./week-06/) | IIoT Layers: Sensing, Processing & Communication | 26 – 30 | ⏳ Pending |
-| [Week 07](./week-07/) | IIoT Layers: Communication & Networking | 31 – 35 | ⏳ Pending |
-| [Week 08](./week-08/) | Big Data Analytics, ML, R/Julia & Hadoop | 36 – 40 | ⏳ Pending |
-| [Week 09](./week-09/) | SDN, Data Center Networks & Cloud Computing | 41 – 45 | ⏳ Pending |
-| [Week 10](./week-10/) | Fog Computing, Security & Application Domains | 46 – 50 | ⏳ Pending |
-| [Week 11](./week-11/) | App Domains: Healthcare, Power & Safety | 51 – 55 | ⏳ Pending |
-| [Week 12](./week-12/) | Real-World Case Studies & UAV Applications | 56 – 65 | ⏳ Pending |
+- Smart Manufacturing
+- Industry 4.0
+- Industrial IoT (IIoT)
+- Operational Visibility
+- Traceability
+- Factory Connectivity
+- Manufacturing Analytics
+- Cyber-Physical Systems
+- AI in Manufacturing
+- Industrial Networking
+- Digitalisation
+- Manufacturing Transformation
 
 ---
 
-## 📖 Lecture Index
+## How This Repository Works
+
+Each topic may include some or all of the following:
+
+- **Compact Notes** — distilled concepts, frameworks and terminology
+- **Practitioner Reflections** — experiences, observations and industrial insights
+- **Stories & Cases** — implementation challenges, field examples and customer situations
+- **Consultant Perspectives** — patterns, implications and strategic thinking
+- **One Thing to Remember** — the most important takeaway
+- **Go Deeper** — concepts worth revisiting and expanding later
+- **Tech & Market Watch** — products, vendors, trends and developments shaping the ecosystem
+
+The objective is not exhaustive coverage.
+
+It is to connect concepts with implementation realities, industrial observations and operational challenges.
+
+---
+
+# Knowledge Domains
 
 <details>
-<summary>📁 Week 01 — Introduction: Sensing, Connectivity & Networking</summary>
+<summary><strong>01 — Sensing, Connectivity & Networking</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 01 | Sensing & Actuation | [📄 View](./week-01/lecture-01-sensing-and-actuation.md) |
-| 02 | IoT Connectivity – Part I | [📄 View](./week-01/lecture-02-iot-connectivity-part1.md) |
-| 03 | IoT Connectivity – Part II | [📄 View](./week-01/lecture-03-iot-connectivity-part2.md) |
-| 04 | IoT Networking – Part I | [📄 View](./week-01/lecture-04-iot-networking-part1.md) |
-| 05 | IoT Networking – Part II | [📄 View](./week-01/lecture-05-iot-networking-part2.md) |
+| Topic | Entry |
+|-------|-------|
+| Sensing & Actuation | [View](./01-sensing-connectivity-networking/sensing-and-actuation.md) |
+| IoT Connectivity | [View](./01-sensing-connectivity-networking/iot-connectivity.md) |
+| IoT Networking | [View](./01-sensing-connectivity-networking/iot-networking.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 02 — Industry 4.0: Foundations & Smart Factories</summary>
+<summary><strong>02 — Industry 4.0 Foundations & Smart Factories</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 06 | The Fourth Revolution | [📄 View](./week-02/lecture-06-the-fourth-revolution.md) |
-| 07 | Sustainability Assessment of Manufacturing | [📄 View](./week-02/lecture-07-sustainability-assessment.md) |
-| 08 | Lean Production System | [📄 View](./week-02/lecture-08-lean-production-system.md) |
-| 09 | Smart and Connected Business Perspective | [📄 View](./week-02/lecture-09-smart-connected-business.md) |
-| 10 | Smart Factories | [📄 View](./week-02/lecture-10-smart-factories.md) |
-
-</details>
-
-<details>
-<summary>📁 Week 03 — Industry 4.0: CPS, AR/VR, AI & Big Data</summary>
-
-| # | Lecture | Notes |
-|---|---------|-------|
-| 11 | Cyber-Physical Systems & Next-Gen Sensors | [📄 View](./week-03/lecture-11-cyber-physical-systems.md) |
-| 12 | Collaboration Platform & Product Lifecycle Mgmt | [📄 View](./week-03/lecture-12-collaboration-platform-plm.md) |
-| 13 | Augmented Reality & Virtual Reality | [📄 View](./week-03/lecture-13-augmented-virtual-reality.md) |
-| 14 | Artificial Intelligence | [📄 View](./week-03/lecture-14-artificial-intelligence.md) |
-| 15 | Big Data & Advanced Analysis | [📄 View](./week-03/lecture-15-big-data-advanced-analysis.md) |
+| Topic | Entry |
+|-------|-------|
+| The Fourth Industrial Revolution | [View](./02-industry40-foundations-smart-factories/fourth-industrial-revolution.md) |
+| Sustainability in Manufacturing | [View](./02-industry40-foundations-smart-factories/sustainability-in-manufacturing.md) |
+| Lean Production Systems | [View](./02-industry40-foundations-smart-factories/lean-production-systems.md) |
+| Smart & Connected Business | [View](./02-industry40-foundations-smart-factories/smart-connected-business.md) |
+| Smart Factories | [View](./02-industry40-foundations-smart-factories/smart-factories.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 04 — Cybersecurity in I4.0 & IIoT Basics</summary>
+<summary><strong>03 — CPS, AR/VR, AI & Big Data</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 16 | Cybersecurity in Industry 4.0 | [📄 View](./week-04/lecture-16-cybersecurity-industry40.md) |
-| 17 | Industrial Processes – Part I | [📄 View](./week-04/lecture-17-industrial-processes-part1.md) |
-| 18 | Industrial Processes – Part II | [📄 View](./week-04/lecture-18-industrial-processes-part2.md) |
-| 19 | Industrial Sensing & Actuation | [📄 View](./week-04/lecture-19-industrial-sensing-actuation.md) |
-| 20 | Industrial Internet Systems | [📄 View](./week-04/lecture-20-industrial-internet-systems.md) |
-
-</details>
-
-<details>
-<summary>📁 Week 05 — IIoT: Introduction, Business Models & Architecture</summary>
-
-| # | Lecture | Notes |
-|---|---------|-------|
-| 21 | IIoT Introduction | [📄 View](./week-05/lecture-21-iiot-introduction.md) |
-| 22 | IIoT Business Models – Part I | [📄 View](./week-05/lecture-22-iiot-business-models-part1.md) |
-| 23 | IIoT Business Models – Part II | [📄 View](./week-05/lecture-23-iiot-business-models-part2.md) |
-| 24 | IIoT Reference Architecture – Part I | [📄 View](./week-05/lecture-24-iiot-reference-architecture-part1.md) |
-| 25 | IIoT Reference Architecture – Part II | [📄 View](./week-05/lecture-25-iiot-reference-architecture-part2.md) |
+| Topic | Entry |
+|-------|-------|
+| Cyber-Physical Systems | [View](./03-cps-arvr-ai-bigdata/cyber-physical-systems.md) |
+| Collaboration Platforms & PLM | [View](./03-cps-arvr-ai-bigdata/collaboration-platforms-plm.md) |
+| Augmented & Virtual Reality | [View](./03-cps-arvr-ai-bigdata/augmented-virtual-reality.md) |
+| Artificial Intelligence in Manufacturing | [View](./03-cps-arvr-ai-bigdata/artificial-intelligence.md) |
+| Big Data & Advanced Analytics | [View](./03-cps-arvr-ai-bigdata/big-data-advanced-analytics.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 06 — IIoT Layers: Sensing, Processing & Communication</summary>
+<summary><strong>04 — Cybersecurity & IIoT Basics</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 26 | IIoT Sensing – Part I | [📄 View](./week-06/lecture-26-iiot-sensing-part1.md) |
-| 27 | IIoT Sensing – Part II | [📄 View](./week-06/lecture-27-iiot-sensing-part2.md) |
-| 28 | IIoT Processing – Part I | [📄 View](./week-06/lecture-28-iiot-processing-part1.md) |
-| 29 | IIoT Processing – Part II | [📄 View](./week-06/lecture-29-iiot-processing-part2.md) |
-| 30 | IIoT Communication – Part I | [📄 View](./week-06/lecture-30-iiot-communication-part1.md) |
-
-</details>
-
-<details>
-<summary>📁 Week 07 — IIoT Layers: Communication & Networking</summary>
-
-| # | Lecture | Notes |
-|---|---------|-------|
-| 31 | IIoT Communication – Part II | [📄 View](./week-07/lecture-31-iiot-communication-part2.md) |
-| 32 | IIoT Communication – Part III | [📄 View](./week-07/lecture-32-iiot-communication-part3.md) |
-| 33 | IIoT Networking – Part I | [📄 View](./week-07/lecture-33-iiot-networking-part1.md) |
-| 34 | IIoT Networking – Part II | [📄 View](./week-07/lecture-34-iiot-networking-part2.md) |
-| 35 | IIoT Networking – Part III | [📄 View](./week-07/lecture-35-iiot-networking-part3.md) |
+| Topic | Entry |
+|-------|-------|
+| Cybersecurity in Industry 4.0 | [View](./04-cybersecurity-iiot-basics/cybersecurity-industry40.md) |
+| Industrial Processes | [View](./04-cybersecurity-iiot-basics/industrial-processes.md) |
+| Industrial Sensing & Actuation | [View](./04-cybersecurity-iiot-basics/industrial-sensing-actuation.md) |
+| Industrial Internet Systems | [View](./04-cybersecurity-iiot-basics/industrial-internet-systems.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 08 — Big Data Analytics, ML, R/Julia & Hadoop</summary>
+<summary><strong>05 — IIoT: Business Models & Architecture</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 36 | IIoT Analytics – Introduction | [📄 View](./week-08/lecture-36-iiot-analytics-introduction.md) |
-| 37 | Machine Learning & Data Science – Part I | [📄 View](./week-08/lecture-37-ml-data-science-part1.md) |
-| 38 | Machine Learning & Data Science – Part II | [📄 View](./week-08/lecture-38-ml-data-science-part2.md) |
-| 39 | R and Julia Programming | [📄 View](./week-08/lecture-39-r-and-julia-programming.md) |
-| 40 | Data Management with Hadoop | [📄 View](./week-08/lecture-40-data-management-hadoop.md) |
+| Topic | Entry |
+|-------|-------|
+| IIoT — What It Actually Is | [View](./05-iiot-business-models-architecture/iiot-introduction.md) |
+| IIoT Business Models | [View](./05-iiot-business-models-architecture/iiot-business-models.md) |
+| IIoT Reference Architecture | [View](./05-iiot-business-models-architecture/iiot-reference-architecture.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 09 — SDN, Data Center Networks & Cloud Computing</summary>
+<summary><strong>06 — IIoT Layers: Sensing, Processing & Communication</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 41 | SDN in IIoT – Part I | [📄 View](./week-09/lecture-41-sdn-in-iiot-part1.md) |
-| 42 | SDN in IIoT – Part II | [📄 View](./week-09/lecture-42-sdn-in-iiot-part2.md) |
-| 43 | Data Center Networks | [📄 View](./week-09/lecture-43-data-center-networks.md) |
-| 44 | Cloud Computing in IIoT – Part I | [📄 View](./week-09/lecture-44-cloud-computing-iiot-part1.md) |
-| 45 | Cloud Computing in IIoT – Part II | [📄 View](./week-09/lecture-45-cloud-computing-iiot-part2.md) |
+| Topic | Entry |
+|-------|-------|
+| IIoT Sensing | [View](./06-iiot-sensing-processing-communication/iiot-sensing.md) |
+| IIoT Processing | [View](./06-iiot-sensing-processing-communication/iiot-processing.md) |
+| IIoT Communication | [View](./06-iiot-sensing-processing-communication/iiot-communication.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 10 — Fog Computing, Security & Application Domains</summary>
+<summary><strong>07 — IIoT Communication & Networking</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 46 | Fog Computing in IIoT | [📄 View](./week-10/lecture-46-fog-computing-iiot.md) |
-| 47 | Security in IIoT – Part I | [📄 View](./week-10/lecture-47-security-in-iiot-part1.md) |
-| 48 | Security in IIoT – Part II | [📄 View](./week-10/lecture-48-security-in-iiot-part2.md) |
-| 49 | Factories & Assembly Line | [📄 View](./week-10/lecture-49-factories-and-assembly-line.md) |
-| 50 | Food Industry | [📄 View](./week-10/lecture-50-food-industry.md) |
+| Topic | Entry |
+|-------|-------|
+| IIoT Communication Protocols | [View](./07-iiot-communication-networking/iiot-communication-protocols.md) |
+| IIoT Networking | [View](./07-iiot-communication-networking/iiot-networking.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 11 — App Domains: Healthcare, Power & Safety</summary>
+<summary><strong>08 — Big Data Analytics & Machine Learning</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 51 | Healthcare | [📄 View](./week-11/lecture-51-healthcare.md) |
-| 52 | Power Plants | [📄 View](./week-11/lecture-52-power-plants.md) |
-| 53 | Inventory Management & Quality Control | [📄 View](./week-11/lecture-53-inventory-quality-control.md) |
-| 54 | Plant Safety & Security (incl. AR/VR) | [📄 View](./week-11/lecture-54-plant-safety-and-security.md) |
-| 55 | Facility Management | [📄 View](./week-11/lecture-55-facility-management.md) |
+| Topic | Entry |
+|-------|-------|
+| IIoT Analytics | [View](./08-bigdata-analytics-ml/iiot-analytics.md) |
+| Machine Learning & Data Science | [View](./08-bigdata-analytics-ml/machine-learning-data-science.md) |
+| Data Management | [View](./08-bigdata-analytics-ml/data-management.md) |
 
 </details>
 
 <details>
-<summary>📁 Week 12 — Real-World Case Studies & UAV Applications</summary>
+<summary><strong>09 — SDN, Data Centre Networks & Cloud</strong></summary>
 
-| # | Lecture | Notes |
-|---|---------|-------|
-| 56 | Oil, Chemical & Pharmaceutical Industry | [📄 View](./week-12/lecture-56-oil-chemical-pharma-industry.md) |
-| 57 | Applications of UAVs in Industries | [📄 View](./week-12/lecture-57-uav-applications-in-industries.md) |
-| 58 | Case Study I: Milk Processing & Packaging | [📄 View](./week-12/lecture-58-case-study-milk-processing.md) |
-| 59 | Case Study II: Manufacturing Industries – Part I | [📄 View](./week-12/lecture-59-case-study-manufacturing-part1.md) |
-| 60 | Case Study III: Manufacturing Industries – Part II | [📄 View](./week-12/lecture-60-case-study-manufacturing-part2.md) |
-| 61 | Case Study IV: Student Projects – Part I | [📄 View](./week-12/lecture-61-case-study-student-projects-part1.md) |
-| 62 | Case Study V: Student Projects – Part II | [📄 View](./week-12/lecture-62-case-study-student-projects-part2.md) |
-| 63 | Case Study VI: Virtual Reality Lab | [📄 View](./week-12/lecture-63-case-study-vr-lab.md) |
-| 64 | Case Study VII: Steel Technology Lab | [📄 View](./week-12/lecture-64-case-study-steel-tech-lab.md) |
-| 65 | Course Wrap-Up & Key Takeaways | [📄 View](./week-12/lecture-65-course-wrap-up.md) |
+| Topic | Entry |
+|-------|-------|
+| Software Defined Networking | [View](./09-sdn-datacentre-cloud/software-defined-networking.md) |
+| Data Centre Networks | [View](./09-sdn-datacentre-cloud/data-centre-networks.md) |
+| Cloud Computing in IIoT | [View](./09-sdn-datacentre-cloud/cloud-computing-iiot.md) |
+
+</details>
+
+<details>
+<summary><strong>10 — Fog & Edge Computing, Security & Applications</strong></summary>
+
+| Topic | Entry |
+|-------|-------|
+| Fog Computing | [View](./10-fog-computing-security-applications/fog-computing.md) |
+| Security in IIoT | [View](./10-fog-computing-security-applications/security-in-iiot.md) |
+| Factory & Assembly Line Applications | [View](./10-fog-computing-security-applications/factory-assembly-line.md) |
+| Food Industry Applications | [View](./10-fog-computing-security-applications/food-industry.md) |
+
+</details>
+
+<details>
+<summary><strong>11 — Application Domains</strong></summary>
+
+| Topic | Entry |
+|-------|-------|
+| Healthcare | [View](./11-application-domains/healthcare.md) |
+| Power Plants | [View](./11-application-domains/power-plants.md) |
+| Inventory Management & Quality Control | [View](./11-application-domains/inventory-quality-control.md) |
+| Plant Safety & Security | [View](./11-application-domains/plant-safety-security.md) |
+| Facility Management | [View](./11-application-domains/facility-management.md) |
+
+</details>
+
+<details>
+<summary><strong>12 — Case Studies & Field Observations</strong></summary>
+
+| Topic | Entry |
+|-------|-------|
+| Oil, Chemical & Pharmaceutical | [View](./12-casestudies-field-observations/oil-chemical-pharma.md) |
+| UAV Applications in Industry | [View](./12-casestudies-field-observations/uav-applications.md) |
+| Milk Processing & Packaging | [View](./12-casestudies-field-observations/milk-processing-packaging.md) |
+| Manufacturing Industries | [View](./12-casestudies-field-observations/manufacturing-industries.md) |
+| Steel Technology | [View](./12-casestudies-field-observations/steel-technology.md) |
 
 </details>
 
 ---
 
-## 🔗 Quick Links
+# Reference Library
 
-| Resource | Link |
-|----------|------|
-| 📋 Course Overview & Syllabus | [View](./course-overview.md) |
-| 📖 Glossary of Key Terms | [View](./resources/glossary.md) |
-| 🔗 References & Useful Links | [View](./resources/links.md) |
-| 📝 Cheatsheets | [View](./resources/cheatsheets.md) |
-| 🏋️ Weekly Assignments | [View](./exercises/) |
-| 🌐 Website (Coming Soon) | [View](./docs/) |
+| Resource | Description |
+|----------|-------------|
+| [Master Glossary](./resources/glossary.md) | Key concepts and terminology interpreted through a practitioner lens |
+| [Reference Reading](./resources/references.md) | Reports, books, frameworks and material worth revisiting |
+| [Tech & Market Watch](./resources/tech-market-watch.md) | Vendors, platforms, technologies and developments shaping Industry 4.0 |
 
 ---
 
-## 📊 Progress Tracker
+## One Thing to Remember
 
-| Metric | Count |
-|--------|-------|
-| 📅 Total Weeks | 12 |
-| 🎬 Total Lectures | 65 |
-| ✅ Completed | 0 |
-| 🔄 In Progress | 0 |
-| ⏳ Remaining | 65 |
+Industry 4.0 is less about adopting technologies and more about creating operational visibility, connected systems and better decisions.
 
 ---
 
-## 📌 About This Repository
-
-> These are **personal course notes** taken while studying the NPTEL course
-> *"Introduction to Industry 4.0 and Industrial Internet of Things"*
-> by **Prof. Sudip Misra**, IIT Kharagpur.
-> All credit for course content goes to the instructor and IIT Kharagpur / NPTEL.
-
-
----
-
-*Last Updated: June 2026*
+*An evolving collection of observations, frameworks, stories, industrial experiences and ideas gathered through factory visits, customer discussions, assessments, projects and continued exploration of manufacturing transformation.*
