@@ -103,7 +103,50 @@ the entire value chain — not just inside a factory.
 
 ---
 
-## 📐 Diagrams & Visuals
+## 📐 Diagram — IIoT Connectivity Network
+
+> Recreated from the animated video shown in the lecture.
+> The IIoT Service Provider acts as the central intelligence hub —
+> connecting all stakeholders across the value chain.
+
+```mermaid
+graph LR
+  subgraph Network["🌐 IIoT Connected Network"]
+    IIOT["IIoT Service Provider"]
+
+    CUST1["Customer 1"]
+    CUST2["Customer 2"]
+
+    SUP1["Supplier 1"]
+    SUP2["Supplier 2"]
+    SUP3["Supplier 3"]
+
+    MFG1["Manufacturer 1"]
+    MFG2["Manufacturer 2"]
+    MFG3["Manufacturer 3"]
+    MFG4["Manufacturer 4"]
+  end
+
+  IIOT --- CUST1
+  IIOT --- CUST2
+  IIOT --- SUP1
+  IIOT --- SUP2
+  IIOT --- SUP3
+  IIOT --- MFG1
+  IIOT --- MFG2
+  IIOT --- MFG3
+  IIOT --- MFG4
+
+  CUST1 --- MFG1
+  CUST2 --- MFG4
+  SUP1 --- MFG2
+  SUP2 --- MFG3
+  SUP3 --- MFG4
+```
+
+> Every node has visibility into the network in real time —
+> orders, production, logistics and supply are all connected
+> through one intelligent layer.
 
 ---
 
