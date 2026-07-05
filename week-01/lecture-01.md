@@ -157,10 +157,10 @@ graph LR
 
 | Term | Note | Added to Glossary? |
 |------|------|--------------------|
-| **Ubiquitous Internet** | "Ubiquitous" = present everywhere simultaneously. In I4.0 context — internet connectivity available across all machines, locations & systems at all times, not just at a workstation | ✅ Yes |
-| **CPS** | Cyber-Physical Systems — tight integration of computation, networking & physical processes. Introduced here as a component of I4.0, technical depth expected in later weeks | ✅ Yes |
-| **M2M Communication** | Machine-to-Machine — devices exchange data & trigger actions directly without human intervention. Core enabler of smart factory automation | ✅ Yes |
-| **Hannover Fair** | Major industrial trade fair in Germany — where Industry 4.0 was officially coined and announced in 2011 | ✅ Yes |
+| **Ubiquitous Internet** | "Ubiquitous" = present everywhere simultaneously. In I4.0 context — internet connectivity available across all machines, locations & systems at all times, not just at a workstation | NO |
+| **CPS** | Cyber-Physical Systems — tight integration of computation, networking & physical processes. Introduced here as a component of I4.0, technical depth expected in later weeks | NO |
+| **M2M Communication** | Machine-to-Machine — devices exchange data & trigger actions directly without human intervention. Core enabler of smart factory automation | NO |
+| **Hannover Fair** | Major industrial trade fair in Germany — where Industry 4.0 was officially coined and announced in 2011 | NO |
 
 ---
 
