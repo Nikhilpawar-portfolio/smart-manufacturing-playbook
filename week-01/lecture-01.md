@@ -68,6 +68,39 @@ IIoT aims to improve:
 
 ## 💡 Key Concepts
 
+### The Four Industrial Revolutions
+
+Each revolution was triggered by a single transformative technology:
+
+| Revolution | Era | Trigger |
+|------------|-----|---------|
+| Industry 1.0 | ~1760s | Steam Engine & Mechanisation |
+| Industry 2.0 | ~1870s | Electricity & Mass Production |
+| Industry 3.0 | ~1960s | Computers & Digital Automation |
+| Industry 4.0 | 2011– | IoT, AI, ML, CPS, M2M Connectivity |
+
+---
+
+### What Makes Industry 4.0 Different?
+
+Previous revolutions replaced or augmented **physical labour.**
+Industry 4.0 is different — it integrates:
+
+- Physical systems with **digital intelligence**
+- **Real-time sensor data** feeding directly into decisions
+- **M2M communication** — machines coordinating without human intervention in the loop
+
+The result is not just automation — it is **connected, self-aware operations.**
+
+---
+
+### IIoT in the Value Chain
+
+IIoT connects every stakeholder — customers, suppliers, manufacturers —
+through a central intelligent service layer. This enables real-time
+coordination, full visibility and operational responsiveness across
+the entire value chain — not just inside a factory.
+
 ---
 
 ## 📐 Diagrams & Visuals
