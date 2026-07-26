@@ -150,8 +150,7 @@ graph LR
 
 ## 📖 Terms Worth Noting
 
-> Only terms that were either new to me, used in a specific
-> Industry 4.0 context, or worth documenting for quick recall.
+> Terms used in a specific Industry 4.0 context or worth documenting for quick recall.
 
 | Term | Note | Added to Glossary? |
 |------|------|--------------------|
@@ -177,7 +176,7 @@ graph LR
 
 ### 💼 Real-World Experience — Component Traceability in IIoT
 
-> This lecture reminded me of a project I was directly involved in.
+> This connects directly to a manufacturing engagement I was involved in.
 
 **Context:** A component manufacturer supplying parts for solar panel
 mounting structures to a solar panel company.
