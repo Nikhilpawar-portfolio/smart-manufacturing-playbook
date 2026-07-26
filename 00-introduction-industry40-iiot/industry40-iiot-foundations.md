@@ -103,7 +103,6 @@ the entire value chain — not just inside a factory.
 
 ## 📐 Diagram — IIoT Connectivity Network
 
-> Recreated from the animated video shown in the lecture.
 > The IIoT Service Provider acts as the central intelligence hub —
 > connecting all stakeholders across the value chain.
 
