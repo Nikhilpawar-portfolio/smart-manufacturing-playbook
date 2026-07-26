@@ -174,73 +174,35 @@ graph LR
 
 ---
 
-### 💼 Real-World Experience — Component Traceability in IIoT
+## 💼 Field Connection — Component Traceability in IIoT
 
-> This connects directly to a manufacturing engagement I was involved in.
+A component manufacturer supplying parts for solar panel mounting
+structures had an ERP system integrated with their customer's ERP.
+Solid on paper. Failing in practice.
 
-**Context:** A component manufacturer supplying parts for solar panel
-mounting structures to a solar panel company.
-
-The client had an ERP system integrated with their customer's ERP —
-a solid setup on paper. But operationally, it was failing repeatedly:
+Symptoms at the time of engagement:
 
 - OTAs missed despite production completing on time
 - Wrong parts dispatched to customers
-- Kitting inaccuracies — components manufactured but unavailable at
-  kitting stage
-- Kit combinations were off — 8,000–9,000+ variations at the time,
-  growing with new models and custom requirements
+- Kitting inaccuracies — components manufactured but unavailable
+  at kitting stage
+- 8,000–9,000+ kit variations with no component-level visibility
 
-**How We Got Involved:**
+The root cause was not the ERP. It was not the process.
 
-The customer invited us for an automation requirement on a specific
-sub-assembly. As standard practice during assessment we did a
-**Gemba walk** — observing the broader workflow around that assembly.
-That's where the internal logistics breakdown became visible.
+It was an invisible physical layer — no traceability between
+manufacturing, internal logistics, kitting and dispatch.
 
-**What We Proposed:**
+The digital system and physical reality were permanently out of sync.
 
-An IIoT-enabled smart assembly system with full ERP integration —
-pulling and pushing data automatically, eliminating manual data entry,
-connecting machines and internal workflows directly to live orders.
-
-We also proposed IIoT-enabling their other systems — integrating
-internal logistics, process transfers and kitting into the same
-connected layer.
-
-The customer got curious. They opened up about the operational
-issues they'd been struggling with and asked whether IIoT could
-solve them.
-
-**Root Cause We Identified:**
-
-The missing piece was **component traceability** — tracking every
-component from:
-
-```
-Manufacturing → Internal Logistics → Process / Machine Transfers
-→ Kitting → Dispatch
-```
-
-...all connected to ERP, their Warehouse Management System and
-Salesforce.
-
-With thousands of kit variations and no traceability at the
-component level, their digital system and physical reality were
-permanently out of sync.
-
-**Connection to This Lecture:**
-
-This is a direct, real-world version of the **Company A vs Company B**
-example from the lecture. The client had invested in a connected
-system (ERP + customer ERP integration) but was still operating on
-assumptions at the process level — because the physical layer was
-never connected to the digital layer.
+This is a direct real-world version of the **Company A vs Company B**
+pattern from this section. The client had invested in connectivity
+at the order level. But the physical layer was never connected
+to the digital layer.
 
 Traceability was the bridge.
 
-> 📌 Component traceability is a critical real-world application of IIoT
-> in manufacturing — explored further in the case studies section.
+→ [Full case study — Component Traceability Breakdown](../case-studies/component-traceability.md)
 
 ---
 
