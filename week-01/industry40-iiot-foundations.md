@@ -1,9 +1,7 @@
-# 📺 Lecture 01 — Introduction to Industry 4.0 and IIoT
+# Industry 4.0 & IIoT — Foundations
 
-> 📁 **Week 01** · NOC: Introduction to Industry 4.0 and IIoT
-> 👨‍🏫 **Instructor:** Prof. Sudip Misra, IIT Kharagpur
-> 📅 **Date Watched:** 7th July 2026
-> ⏱️ **Duration:** 13 min
+> Baseline concepts and mental models for manufacturing transformation work.
+> Anchored to real industrial observations and customer engagements.
 
 ---
 
@@ -168,13 +166,12 @@ graph LR
 
 ### 🤔 Forward Connections — To Revisit
 
-- The **Company A vs B** example feels like a direct argument for
-  operational data visibility & real-time decision making —
-  likely connects to topics on Big Data, Analytics or ERP integration
-  in later weeks. To revisit once those weeks are covered.
+- The **Company A vs B** example reinforces the operational case for
+  data visibility and real-time decision making — connects forward to
+  Big Data, Analytics and ERP integration topics.
 
-- **CPS** was introduced briefly here — expecting deeper technical
-  coverage in later weeks. Holding questions until then.
+- **CPS** introduced here as a concept — deeper technical coverage
+  expected in later sections. Holding questions until then.
 
 ---
 
@@ -243,10 +240,8 @@ never connected to the digital layer.
 
 Traceability was the bridge.
 
-> 📌 **Note:** Component traceability is not covered in this lecture
-> and may or may not appear explicitly in later weeks. It is however
-> a critical real-world application of IIoT in manufacturing —
-> worth watching for as the course progresses.
+> 📌 Component traceability is a critical real-world application of IIoT
+> in manufacturing — explored further in the case studies section.
 
 ---
 
@@ -277,10 +272,5 @@ Traceability was the bridge.
 
 | | Link |
 |-|------|
-| 📁 Week 01 Home | [README.md](./README.md) |
-| ⬅️ Previous | — |
-| ➡️ Next | [Lecture 02](./lecture-02.md) |
-
----
-
-*Date Watched: 7th July 2026*
+| 🏠 Playbook Home | [README.md](../README.md) |
+| ➡️ Next | [Sensing, Connectivity & Networking](../Connectivity%20&%20Networking/) |
